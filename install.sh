@@ -5,7 +5,7 @@ if [ "$EUID" -ne 0 ]
   exit
 else
 	mv ocnet.desktop /usr/share/applications 
-	mv oneconnxt.ico /usr/share/icons
+	mv oneconnxt.png /usr/share/icons
 	mv ocnet /usr/local/bin
 	mv ocnetwrap.sh /home/user
 	chmod +x /home/user/ocnetwrap.sh
